@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-    <title>重置密码</title>
+    <title>推荐人</title>
     <!-- CSS start -->
     <link rel="stylesheet" href="icofont/style.css">
     <link rel="stylesheet" href="css/style.min.css">
@@ -17,78 +17,95 @@
 
 <body>
     <!-- container start -->
-    <div class="container gray">
+    <div class="container">
         <!-- header start -->
         <header class="header">
             <div class="inner">
-                <a href="1-password-forget.html" class="button button-clear button-clear-black">
-                    <span class="button-inner"><i class="icon-arrow-left"></i></span>
+                <a href="2-package-buy.html" class="button button-clear button-clear-gray">
+                    <span class="button-inner">取消</span>
                 </a>
                 <div class="header-title">
-                    <h3 class="title">重置密码</h3>
+                    <h3 class="title">推荐人</h3>
                 </div>
             </div>
         </header>
         <!-- header over -->
         <!-- main start -->
         <main class="main">
-            <!-- explain start -->
-            <div class="login-explain">
-                <p>验证码已发送至: 13888888888</p>
-            </div>
-            <!-- explain over -->
             <!-- list start -->
+            <div class="title-box background-gray">
+                <h4 class="title gray">我的技师</h4>
+            </div>
             <div class="list">
                 <!-- item start -->
-                <div class="item">
-                    <div class="row">
-                        <div class="column input">
-                            <input type="tel" class="input" autofocus="autofocus" placeholder="请输入验证码">
-                            <p class="medium red">验证码错误</p>
-                            <button class="button button-round">
-                                <span class="button-inner">重新发送</span>
-                            </button>
-                            <!-- <button class="button button-round" disabled>
-                                <span class="button-inner">60秒后重新发送</span>
-                            </button> -->
-                        </div>
+                <a class="item">
+                    <div class="image image-small image-round">
+                        <img src="http://img.la/40x40" alt="">
                     </div>
-                </div>
+                    <div class="row">
+                            <p class="title">美容师</p>
+                    </div>
+                </a>
                 <!-- item over -->
                 <!-- item start -->
-                <div class="item">
-                    <div class="row">
-                        <div class="column input">
-                            <input type="text" class="input" placeholder="请输入新的密码">
-                            <div class="icon"><img src="img/warning@2x.png" alt=""></div>
-                        </div>
+                <a class="item">
+                    <div class="image image-small image-round">
+                        <img src="http://img.la/40x40" alt="">
                     </div>
-                </div>
+                    <div class="row">
+                            <p class="title">美容师</p>
+                    </div>
+                </a>
                 <!-- item over -->
                 <!-- item start -->
-                <div class="item">
-                    <div class="row">
-                        <div class="column input">
-                            <input type="text" class="input" placeholder="再次输入新的密码">
-                            <p class="medium red">两次密码输入不一致</p>
-                        </div>
+                <a class="item">
+                    <div class="image image-small image-round">
+                        <img src="http://img.la/40x40" alt="">
                     </div>
-                </div>
+                    <div class="row">
+                            <p class="title">美容师</p>
+                    </div>
+                </a>
                 <!-- item over -->
             </div>
             <!-- list over -->
-            <!-- alert start -->
-            <div class="login-alert login-alert-gray">
-                <p>密码由6-20位字符的字母和数字组成</p>
+            <!-- list start -->
+            <div class="title-box background-gray">
+                <h4 class="title gray">附近技师</h4>
             </div>
-            <!-- alert over -->
-            <!-- button start -->
-            <div class="button-box">
-                <button class="button button-round button-block button-large">
-                    <span class="button-inner">确定重置密码</span>
-                </button>
+            <div class="list">
+                <!-- item start -->
+                <a class="item">
+                    <div class="image image-small image-round">
+                        <img src="http://img.la/40x40" alt="">
+                    </div>
+                    <div class="row">
+                        <p class="title">美容师</p>
+                    </div>
+                </a>
+                <!-- item over -->
+                <!-- item start -->
+                <a class="item">
+                    <div class="image image-small image-round">
+                        <img src="http://img.la/40x40" alt="">
+                    </div>
+                    <div class="row">
+                        <p class="title">美容师</p>
+                    </div>
+                </a>
+                <!-- item over -->
+                <!-- item start -->
+                <a class="item">
+                    <div class="image image-small image-round">
+                        <img src="http://img.la/40x40" alt="">
+                    </div>
+                    <div class="row">
+                        <p class="title">美容师</p>
+                    </div>
+                </a>
+                <!-- item over -->
             </div>
-            <!-- button over -->
+            <!-- list over -->
         </main>
         <!-- main over -->
     </div>
@@ -110,16 +127,6 @@
     <!-- <script type="text/javascript" src="js/accordion/jquery.accordion.js"></script> -->
     <script type="text/javascript" src="js/scripts.js"></script>
     <!-- JavaScript over -->
-
-    <!-- demo js start -->
-    <script>
-        $(document).ready(function() {
-            $('#phone').bind('keyup', function() {
-                $('#get-code').removeAttr('disabled');
-            });
-        });
-    </script>
-    <!-- demo js over -->
 
 </body>
 

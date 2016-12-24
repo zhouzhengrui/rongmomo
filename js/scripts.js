@@ -67,7 +67,10 @@ var elems = Array.prototype.slice.call(document.querySelectorAll('.switch'));
 elems.forEach(function(html) {
     var switchery = new Switchery(html, {
         className: 'switch',
-        color: '#53c7c6'
+        color: '#53c7c6',
+        secondaryColor: '#d7d7d7',
+        jackColor: '#ffffff',
+        jackSecondaryColor: '#ffffff'
     });
 });
 
@@ -78,6 +81,12 @@ jQuery(document).ready(function($) {
         container: $('main.main'),
         threshold: 200,
         effect: 'fadeIn'
+    });
+
+    // radio-checkbox
+    $('.radio-checkbox').iCheck({
+        checkboxClass: 'checkbox',
+        radioClass: 'radio',
     });
 
     // --------------------------------------------- fly --------------------------------------------- //
