@@ -336,7 +336,8 @@ header.header .button {
 header.header .button i {
   display: block;
   width: 18px;
-  height: 18px;
+  height: 44px;
+  line-height: 44px;
   font-size: 18px;
 }
 
@@ -346,7 +347,6 @@ header.header .button i.icon-arrow-left:before {
 
 header.header .button i.small {
   width: 14px;
-  height: 14px;
   font-size: 14px;
 }
 
