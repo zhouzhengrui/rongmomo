@@ -52,6 +52,7 @@
 - 首页技师列表图片 `65*65px`
 - 商品详情页大图 `375*256px`
 - 商品详情页滑动小图 `120*120px`
+- 订单页小图 `40*40px`
 
 [⬆ back to top](#readme)
 
@@ -70,5 +71,14 @@
 - 首页-我的技师-空 `1-home-technician-empty.html`
 - 商品详情 `2-goods-content.html`
 - 商品详情-评论 `2-goods-comment.html`
+- 商品详情-确认商品信息 `2-goods-buy.html`
+- 商品详情-确认商品信息-确认订单 `2-goods-confirm.html`
+- 商品详情-确认商品信息-确认订单-订单详情 `2-goods-payment.html`
+- 商品详情-确认商品信息-确认订单-订单详情-交易详情 `2-goods-payment-finish.html`
+- 套餐详情 `2-package-content.html`
+- 套餐详情-确认订单 `2-package-buy.html`
+- 套餐详情-确认订单-订单详情 `2-package-payment.html`
+- 套餐详情-确认订单-订单详情-交易详情 `2-package-payment-finish.html`
+- 套餐详情-推荐人 `2-recommend.html`
 
 [⬆ back to top](#readme)
