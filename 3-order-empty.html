@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-    <title>购物车</title>
+    <title>全部订单-空</title>
     <!-- CSS start -->
     <link rel="stylesheet" href="icofont/style.css">
     <link rel="stylesheet" href="css/style.min.css">
@@ -22,42 +22,25 @@
         <header class="header">
             <div class="inner">
                 <div class="header-title">
-                    <h3 class="title">购物车</h3>
+                    <h3 class="title">全部订单</h3>
                 </div>
             </div>
         </header>
         <!-- header over -->
         <!-- footer start -->
-        <footer class="footer footer-cart">
-            <img class="shadow" src="img/shadow@2x.png" alt="">
-            <div class="inner">
-                <div class="column radio-checkbox">
-                    <input type="checkbox" name="radio-1">
-                    <p class="gray">全选</p>
-                    <div class="margin-left">
-                        <p class="small">总计：¥ 0.00</p>
-                        <p class="gray mini">已优惠: ¥0.00</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <button onclick="location.href='2-cart-confirm.html'" class="button button-round button-wide" disabled>
-                        <span class="button-inner">去结算</span>
-                    </button>
-                </div>
-            </div>
-        </footer>
         <footer class="footer">
+            <img class="shadow" src="img/shadow@2x.png" alt="">
             <nav class="tabbar">
                 <a href="1-home-all.html">
                     <div class="icon"></div>
                     <p>首页</p>
                 </a>
-                <a href="2-cart.html" class="active">
+                <a href="2-cart.html">
                     <div class="icon" id="cart"></div>
                     <span class="badge" id="cart-badge">1</span>
                     <p>购物车</p>
                 </a>
-                <a href="3-order-all.html">
+                <a href="3-order-all.html" class="active">
                     <div class="icon"></div>
                     <p>订单</p>
                 </a>
@@ -70,13 +53,28 @@
         <!-- footer over -->
         <!-- main start -->
         <main class="main">
+            <!-- tab start -->
+            <nav class="tabbar tabbar-border">
+                <div class="inner">
+                    <a href="3-order-all.html" class="active">进行中</a>
+                    <a href="#">待评价</a>
+                    <a href="#">已完成</a>
+                    <a href="#">已取消</a>
+                </div>
+            </nav>
+            <!-- tab over -->
             <!-- empty start -->
             <div class="empty-box">
                 <div class="image image-large">
-                    <img src="img/cart-empty@2x.png" alt="">
+                    <img src="img/order-empty@2x.png" alt="">
                 </div>
                 <div class="info">
-                    <p>购物车还是空空的哦~</p>
+                    <p>您还没有下过订单</p>
+                </div>
+                <div class="button-box">
+                    <a href="#" class="button button-round">
+                        <span class="button-inner">立即下单</span>
+                    </a>
                 </div>
             </div>
             <!-- empty over -->

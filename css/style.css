@@ -2103,7 +2103,7 @@ button.swiper-pagination-bullet {
   font-size: 13px;
 }
 
-.list-card section {
+.list-card .item {
   margin-bottom: 20px;
 }
 
@@ -2114,12 +2114,18 @@ button.swiper-pagination-bullet {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.list-card .cart-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-}
-
-.list-card header {
   padding: 0 12px;
   min-height: 40px;
   border-top: 1px solid #eeeeee;
@@ -2130,38 +2136,53 @@ button.swiper-pagination-bullet {
   background-color: #f5f6f7;
 }
 
-.list-card main {
-  -webkit-align-items: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
+.list-card .card-content {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  padding: 5px;
 }
 
-.list-card main a.link {
+.list-card .card-content .card-content-link {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  width: 100%;
-  padding: 12px 12px 9px;
+  padding: 5px;
+  color: #4a4a4a;
 }
 
-.list-card main a.link:active {
+.list-card .card-content .card-content-link:active {
   background-color: #f5f6f7;
 }
 
-.list-card main .avatar {
+.list-card .card-content .avatar {
   width: 50px;
   height: 50px;
   margin-right: 12px;
-  border-radius: 50%;
   background-color: #f5f6f7;
 }
 
-.list-card main .title {
+.list-card .card-content .avatar img {
+  border-radius: 50%;
+}
+
+.list-card .card-content .image {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  background-color: #f5f6f7;
+}
+
+.list-card .card-content .image img {
+  border-radius: 4px;
+}
+
+.list-card .card-content .title {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -2173,29 +2194,33 @@ button.swiper-pagination-bullet {
   font-size: 16px;
 }
 
-.list-card main .sub-title {
+.list-card .card-content .sub-title {
   margin-bottom: 6px;
   font-size: 14px;
 }
 
-.list-card main dl dd,
-.list-card main dl dt {
+.list-card .card-content dl dd,
+.list-card .card-content dl dt {
   min-height: 18px;
   margin-bottom: 3px;
 }
 
-.list-card main dl dt {
+.list-card .card-content dl dt {
   float: left;
   width: 60px;
   color: #9b9b9b;
 }
 
-.list-card main dl dd {
+.list-card .card-content dl dd {
   margin-left: 60px;
   color: #2c2c2c;
 }
 
-.list-card footer {
+.list-card .card-content .margin-left {
+  margin-left: 10px;
+}
+
+.list-card .cart-footer {
   padding: 0 12px;
   min-height: 40px;
   border-bottom: 1px solid #eeeeee;
@@ -2205,51 +2230,52 @@ button.swiper-pagination-bullet {
   border-bottom-right-radius: 4px;
 }
 
-.list-card footer .inner {
+.list-card .cart-footer .inner {
+  border-top: 1px solid #eeeeee;
+}
+
+.list-card .cart-footer .row {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
   justify-content: space-between;
-  width: 100%;
   min-height: 44px;
-  border-top: 1px solid #eeeeee;
 }
 
-.list-card footer .button {
-  display: inline-block;
+.list-card .cart-footer .button {
   height: 28px;
-  line-height: 28px;
-  padding: 0 25px;
-  border-radius: 14px;
-  color: #fff;
+  padding: 0 18px;
   font-size: 14px;
-  background-color: #53c7c6;
+  margin-left: 5px;
 }
 
-.list-card footer .button:active {
-  background-color: #39aead;
+.list-card .cart-footer .statistics {
+  margin-top: 9px;
 }
 
-.list-card footer .button.outlineButton {
-  color: #53c7c6;
-  border: 1px solid #53c7c6;
-  background-color: #fff;
-}
-
-.list-card footer .button.outlineButton:active {
-  color: #fff;
-  background-color: #53c7c6;
+.list-card .big {
+  font-size: 16px;
 }
 
 .list-card .color-1 {
   color: #53c7c6;
 }
 
-.list-card .gray {
+.list-card .gray-dark {
   color: #9b9b9b;
+}
+
+.list-card .gray {
+  color: #bfbfbf;
+}
+
+.list-card .dark {
+  color: #4a4a4a;
 }
 
 .list-card .black {
@@ -4913,6 +4939,11 @@ section.calendar-switch.shadow {
   width: 82px;
   height: 82px;
   margin-bottom: 8px;
+}
+
+.empty-box .image-large {
+  width: 120px;
+  height: 120px;
 }
 
 .empty-box .info {
