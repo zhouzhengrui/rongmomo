@@ -62,13 +62,18 @@ var goodsSlide = new Swiper('#goods-slide', {
     }
 });
 
+// list slide
+var listSlide = new Swiper('.list-slide', {
+    slidesOffsetAfter: 100
+});
+
 // switchery
 var elems = Array.prototype.slice.call(document.querySelectorAll('.switch'));
 elems.forEach(function(html) {
     var switchery = new Switchery(html, {
         className: 'switch',
         color: '#53c7c6',
-        secondaryColor: '#d7d7d7',
+        secondaryColor: '#f5f6f7',
         jackColor: '#ffffff',
         jackSecondaryColor: '#ffffff'
     });

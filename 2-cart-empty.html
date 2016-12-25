@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-    <title>首页-我的技师-空</title>
+    <title>购物车</title>
     <!-- CSS start -->
     <link rel="stylesheet" href="icofont/style.css">
     <link rel="stylesheet" href="css/style.min.css">
@@ -22,26 +22,37 @@
         <header class="header">
             <div class="inner">
                 <div class="header-title">
-                    <div class="title-select">
-                        <select>
-                            <option>上海</option>
-                            <option>北京</option>
-                        </select>
-                        <i class="icon-arrow-down"></i>
-                    </div>
+                    <h3 class="title">购物车</h3>
                 </div>
             </div>
         </header>
         <!-- header over -->
         <!-- footer start -->
-        <footer class="footer">
+        <footer class="footer footer-cart">
             <img class="shadow" src="img/shadow@2x.png" alt="">
+            <div class="inner">
+                <div class="column radio-checkbox">
+                    <input type="checkbox" name="radio-1">
+                    <p class="gray">全选</p>
+                    <div class="margin-left">
+                        <p class="small">总计：¥ 0.00</p>
+                        <p class="gray mini">已优惠: ¥0.00</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <button onclick="location.href='2-cart-confirm.html'" class="button button-round button-wide" disabled>
+                        <span class="button-inner">去结算</span>
+                    </button>
+                </div>
+            </div>
+        </footer>
+        <footer class="footer">
             <nav class="tabbar">
-                <a class="active" href="1-home-all.html">
+                <a href="1-home-all.html">
                     <div class="icon"></div>
                     <p>首页</p>
                 </a>
-                <a href="2-cart.html">
+                <a href="2-cart.html" class="active">
                     <div class="icon" id="cart"></div>
                     <span class="badge" id="cart-badge">1</span>
                     <p>购物车</p>
@@ -59,49 +70,13 @@
         <!-- footer over -->
         <!-- main start -->
         <main class="main">
-            <!-- tab start -->
-            <nav class="swiper-container tabbar tabbar-slide" id="tabbar-slide">
-                <div class="swiper-wrapper">
-                    <!-- group start -->
-                    <div class="swiper-slide" data-hash="tab-1">
-                        <a href="1-home-all.html#tab-1">全部项目</a>
-                    </div>
-                    <!-- group over -->
-                    <!-- group start -->
-                    <div class="swiper-slide" data-hash="tab-2">
-                        <a href="1-home-package.html#tab-2">套餐</a>
-                    </div>
-                    <!-- group over -->
-                    <!-- group start -->
-                    <div class="swiper-slide" data-hash="tab-3">
-                        <a href="#">面部</a>
-                    </div>
-                    <!-- group over -->
-                    <!-- group start -->
-                    <div class="swiper-slide" data-hash="tab-4">
-                        <a href="#">身体</a>
-                    </div>
-                    <!-- group over -->
-                    <!-- group start -->
-                    <div class="swiper-slide" data-hash="tab-5">
-                        <a href="1-home-technician.html#tab-5" class="active">我的技师</a>
-                    </div>
-                    <!-- group over -->
-                </div>
-            </nav>
-            <!-- tab over -->
             <!-- empty start -->
             <div class="empty-box">
                 <div class="image">
-                    <img src="img/logo-gray@2x.png" alt="">
+                    <img src="img/cart-empty@2x.png" alt="">
                 </div>
                 <div class="info">
-                    <p>哇, 有一枚未发现的鲜肉小主! 您还没有预约美容服务</p>
-                </div>
-                <div class="button-box">
-                    <a href="#" class="button button-outline button-round">
-                        <span class="button-inner">预约上门美容</span>
-                    </a>
+                    <p>购物车还是空空的哦~</p>
                 </div>
             </div>
             <!-- empty over -->

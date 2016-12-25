@@ -80,5 +80,10 @@
 - 套餐详情-确认订单-订单详情 `2-package-payment.html`
 - 套餐详情-确认订单-订单详情-交易详情 `2-package-payment-finish.html`
 - 套餐详情-推荐人 `2-recommend.html`
+- 购物车 `2-cart.html`
+- 购物车-空 `2-cart-empty.html`
+- 购物车-确认商品信息 `2-cart-confirm.html`
+- 购物车-确认商品信息-提交订单 `2-cart-confirm-submit.html`
+- 购物车-确认商品信息-优惠券 `2-cart-coupon.html`
 
 [⬆ back to top](#readme)
