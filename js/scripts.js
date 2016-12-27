@@ -67,6 +67,20 @@ var listSlide = new Swiper('.list-slide', {
     slidesOffsetAfter: 100
 });
 
+// calendar
+var calendarSlide = new Swiper('#calendar-slide', {
+    effect: 'coverflow',
+    slidesPerView: 'auto',
+    hashnav:true,
+    freeMode : true,
+    freeModeSticky : true,
+    coverflow: {
+        rotate: 0,
+        depth: 0,
+        slideShadows: false
+    }
+});
+
 // switchery
 var elems = Array.prototype.slice.call(document.querySelectorAll('.switch'));
 elems.forEach(function(html) {
@@ -92,6 +106,29 @@ jQuery(document).ready(function($) {
     $('.radio-checkbox').iCheck({
         checkboxClass: 'checkbox',
         radioClass: 'radio',
+    });
+
+    // raty
+    $('.raty-1').raty({
+        starType: 'img',
+        path: '../img',
+        starHalf: 'star-half@2x.png',
+        starOff: 'star-empty@2x.png',
+        starOn: 'star@2x.png',
+        space: false,
+        targetKeep : true,
+        hints: ['差劲', '一般', '中等', '良好, 手艺还需要提高', '完美'],
+        target: '#raty-hint',
+        targetScore: '#raty-number'
+    });
+
+    $('.raty-2').raty({
+        starType: 'img',
+        path: '../img',
+        starHalf: 'star-half@2x.png',
+        starOff: 'star-empty@2x.png',
+        starOn: 'star@2x.png',
+        space: false
     });
 
     // --------------------------------------------- fly --------------------------------------------- //

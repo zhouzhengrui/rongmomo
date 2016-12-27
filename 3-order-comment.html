@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <title>订单-评价</title>
+    <!-- CSS start -->
+    <link rel="stylesheet" href="icofont/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- CSS over -->
+</head>
+
+
+<body>
+    <!-- container start -->
+    <div class="container">
+        <!-- header start -->
+        <header class="header">
+            <div class="inner">
+                <a href="3-order-all.html" class="button button-clear button-clear-black">
+                    <span class="button-inner"><i class="icon-arrow-left"></i></span>
+                </a>
+                <div class="header-title">
+                    <h3 class="title">评价</h3>
+                </div>
+            </div>
+        </header>
+        <!-- header over -->
+        <!-- footer start -->
+        <footer class="footer">
+            <img class="shadow" src="img/shadow@2x.png" alt="">
+            <div class="inner justify-content-center">
+                <button onclick="location.href='3-order-comment-content.html'" class="button button-round button-small button-wide">
+                    <span class="button-inner">提交评论</span>
+                </button>
+            </div>
+        </footer>
+        <!-- footer over -->
+        <!-- main start -->
+        <main class="main">
+            <div class="title-box background-gray">
+                <h4 class="gray">评价技师</h4>
+            </div>
+            <!-- list start -->
+            <div class="list">
+                <!-- item start -->
+                <button class="item" onclick="location.href='1-home-technician-content.html'">
+                    <div class="image image-round">
+                        <img data-original="http://img.la/65x65" class="lazyload" alt="">
+                    </div>
+                    <div class="row icon-arrow-right">
+                        <div class="column flex-1">
+                            <div class="inner">
+                                <p class="title">玉洁<span class="label label-yellow margin-left">5年</span></p>
+                                <div class="star-mini">
+                                    <img src="img/star@2x.png" alt="">
+                                    <img src="img/star@2x.png" alt="">
+                                    <img src="img/star@2x.png" alt="">
+                                    <img src="img/star-half@2x.png" alt="">
+                                    <img src="img/star-empty@2x.png" alt="">
+                                    <p class="mini gray">4.8分</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <!-- item over -->
+            </div>
+            <!-- list over -->
+            <!-- raty start -->
+            <div class="raty-box">
+                <h5 class="title">评价技师</h5>
+                <div class="raty raty-1">
+                    <input class="raty-number" type="text" id="raty-number">
+                </div>
+                <div class="raty-hint" id="raty-hint"></div>
+            </div>
+            <!-- raty over -->
+            <!-- label start -->
+            <div class="label-box label-select">
+                <h4 class="title">选择合适的标签</h4>
+                <span class="label label-round label-outline label-outline-gray label-large">效果好</span>
+                <span class="label label-round label-outline label-outline-gray label-large">产品不错</span>
+                <span class="label label-round label-outline label-outline-gray label-large">赞</span>
+            </div>
+            <!-- label over -->
+            <!-- button start -->
+            <div class="button-box" style="margin-top:10px; margin-bottom:24px;">
+                <button class="button button-round button-outline button-outline-orange button-small button-wide md-trigger" data-modal="modal-1">
+                    <span class="button-inner">打赏</span>
+                </button>
+            </div>
+            <!-- button over -->
+            <div class="title-box background-gray">
+                <h4 class="gray">评价商品</h4>
+            </div>
+            <!-- list start -->
+            <div class="list">
+                <!-- item start -->
+                <button class="item" onclick="location.href='#'">
+                    <div class="row icon-arrow-right">
+                        <div class="column flex-1">
+                            <div class="image">
+                                <img data-original="http://img.la/65x65" class="lazyload" alt="">
+                            </div>
+                            <div class="image">
+                                <img data-original="http://img.la/65x65" class="lazyload" alt="">
+                            </div>
+                        </div>
+                        <p class="gray medium-small">共2件</p>
+                    </div>
+                </button>
+                <!-- item over -->
+            </div>
+            <!-- list over -->
+            <!-- raty start -->
+            <div class="raty-box">
+                <h5 class="title">评价商品</h5>
+                <div class="raty raty-2"></div>
+            </div>
+            <!-- raty over -->
+            <!-- list start -->
+            <div class="list">
+                <!-- item start -->
+                <div class="item">
+                    <div class="row">
+                        <label class="label">商品一</label>
+                        <div class="column">
+                            <button class="recommend-tread tread"></button>
+                            <button class="recommend-tread recommend"></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- item over -->
+                <!-- item start -->
+                <div class="item">
+                    <div class="row">
+                        <label class="label">招牌全身经络</label>
+                        <div class="column">
+                            <button class="recommend-tread tread active"></button>
+                            <button class="recommend-tread recommend active"></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- item over -->
+            </div>
+            <!-- list over -->
+            <div class="title-box background-gray">
+                <h4 class="gray">写下评论语</h4>
+            </div>
+            <div class="textarea-box">
+                <textarea class="medium" rows="4" placeholder="点评一下商品或技师吧, 您的意见很重要 (写够15字才是真爱)"></textarea>
+            </div>
+            <div class="spacing"></div>
+        </main>
+        <!-- main over -->
+    </div>
+    <!-- container over -->
+
+    <!-- modal start -->
+    <div class="md-modal md-effect-1" id="modal-1">
+        <div class="md-content">
+            <div class="modal-title align-center">天干物燥, 美容技师去买杯饮料吧</div>
+            <div class="modal-award">
+                <div class="row">
+                    <button class="button button-outline button-round button-small">
+                        <span class="button-inner">5元</span>
+                    </button>
+                    <button class="button button-outline button-round button-small">
+                        <span class="button-inner">10元</span>
+                    </button>
+                    <button class="button button-outline button-round button-small">
+                        <span class="button-inner">20元</span>
+                    </button>
+                </div>
+                <input type="text" class="money" placeholder="输入任意金额">
+            </div>
+            <div class="button-box">
+                <button class="button button-full button-clear button-clear-black big md-close" disabled>
+                    <span class="button-inner">打赏</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="md-overlay"></div>
+    <!-- modal over -->
+
+    <!-- JavaScript start -->
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/swiper/swiper.min.js"></script>
+    <script type="text/javascript" src="js/lazyload/jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="js/fly/jquery.fly.min.js"></script>
+    <!-- <script type="text/javascript" src="js/tooltip/jquery.darktooltip.js"></script> -->
+    <!-- <script type="text/javascript" src="js/fancyBox/jquery.fancybox.pack.js"></script> -->
+    <script type="text/javascript" src="js/iCheck/icheck.min.js"></script>
+    <script type="text/javascript" src="js/switchery/switchery.min.js"></script>
+    <script type="text/javascript" src="js/modalEffects/classie.js"></script>
+    <script type="text/javascript" src="js/modalEffects/modalEffects.js"></script>
+    <script type="text/javascript" src="js/raty/jquery.raty.js"></script>
+    <!-- <script type="text/javascript" src="js/mmenu/jquery.mmenu.all.min.js"></script> -->
+    <!-- <script type="text/javascript" src="js/accordion/jquery.accordion.js"></script> -->
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <!-- JavaScript over -->
+
+    <!-- demo js start -->
+    <script>
+        $(document).ready(function() {
+            $(".label-box .label").click(function(){
+                $(this).toggleClass("active");
+            })
+        });
+    </script>
+    <!-- demo js over -->
+
+</body>
+
+</html>

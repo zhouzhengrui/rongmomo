@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <title>全部订单-订单详情</title>
+    <!-- CSS start -->
+    <link rel="stylesheet" href="icofont/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- CSS over -->
+</head>
+
+
+<body>
+    <!-- container start -->
+    <div class="container">
+        <!-- header start -->
+        <header class="header">
+            <div class="inner">
+                <a href="3-order-all.html" class="button button-clear button-clear-black">
+                    <span class="button-inner"><i class="icon-arrow-left"></i></span>
+                </a>
+                <div class="header-title">
+                    <h3 class="title">订单详情</h3>
+                </div>
+            </div>
+        </header>
+        <!-- header over -->
+        <!-- footer start -->
+        <footer class="footer">
+            <img class="shadow" src="img/shadow@2x.png" alt="">
+            <div class="inner">
+                <a href="3-order-refund.html" class="color-1 medium">申请退款</a>
+                <div class="column">
+                    <p class="gray medium">订单已修改</p>
+                    <button class="button button-round button-outline button-mini md-trigger" data-modal="modal-3">
+                        <span class="button-inner">修改订单</span>
+                    </button>
+                    <a href="3-order-add.html" class="button button-round button-outline button-mini">
+                        <span class="button-inner">加单</span>
+                    </a>
+                    <!-- <a href="#" class="button button-round button-outline button-mini">
+                        <span class="button-inner">评价送50颜值分</span>
+                    </a> -->
+                    <!-- <a href="#" class="button button-round button-outline button-mini">
+                        <span class="button-inner">再来一单</span>
+                    </a> -->
+                    <!-- <a href="#" class="button button-round button-outline button-mini">
+                        <span class="button-inner">加单</span>
+                    </a> -->
+                    <!-- <a href="#" class="button button-round button-outline button-mini">
+                        <span class="button-inner">预约</span>
+                    </a> -->
+                </div>
+            </div>
+            <!-- <div class="inner ">
+                <p class="gray flex-1 align-center">本单为加单订单 <a href="#" class="color-1">查看原单</a></p>
+            </div> -->
+        </footer>
+        <!-- footer over -->
+        <!-- main start -->
+        <main class="main">
+            <!-- step start -->
+            <div class="info-group">
+                <!-- item start -->
+                <div class="title-box">
+                    <h4 class="title">订单状态</h4>
+                    <p class="gray-dark">9-12 10:00 上门服务</p>
+                </div>
+                <!-- item over -->
+                <!-- item start -->
+                <div class="title-box">
+                    <div class="column">
+                        <h4 class="title">订单状态</h4>
+                        <p class="gray mini">9-12 10:00 上门服务</p>
+                    </div>
+                    <p class="gray-dark">已取消</p>
+                </div>
+                <!-- item over -->
+                <!-- item start -->
+                <div class="title-box">
+                    <div class="column">
+                        <h4 class="title">订单状态</h4>
+                        <p class="gray mini">9-12 10:00 上门服务</p>
+                    </div>
+                    <span class="label label-outline label-outline-red label-round label-large margin-none">退款中</span>
+                </div>
+                <!-- item over -->
+                <!-- item start -->
+                <div class="title-box">
+                    <div class="column">
+                        <h4 class="title">订单状态</h4>
+                        <p class="gray mini">9-12 10:00 上门服务</p>
+                    </div>
+                    <span class="label label-outline label-outline-gray label-round label-large margin-none">已退款</span>
+                </div>
+                <!-- item over -->
+                <!-- item start -->
+                <div class="title-box">
+                    <div class="column">
+                        <h4 class="title">订单状态</h4>
+                        <p class="gray mini">9-12 10:00 上门服务</p>
+                    </div>
+                    <p class="color-1">剩余 7 次</p>
+                </div>
+                <!-- item over -->
+                <!-- item start -->
+                <div class="title-box">
+                    <div class="column">
+                        <h4 class="title">订单状态</h4>
+                        <p class="gray mini">9-12 10:00 上门服务</p>
+                    </div>
+                    <p class="gray-dark">已过期</p>
+                </div>
+                <!-- item over -->
+                <!-- item start -->
+                <div class="title-box">
+                    <div class="column">
+                        <h4 class="title">订单状态</h4>
+                        <p class="gray mini">9-12 10:00 上门服务</p>
+                    </div>
+                    <p class="gray-dark">已用完</p>
+                </div>
+                <!-- item over -->
+                <!-- item start -->
+                <div class="title-box">
+                    <div class="column">
+                        <h4 class="title">订单状态</h4>
+                        <p class="gray mini">9-12 10:00 上门服务</p>
+                    </div>
+                    <div class="column align-right">
+                        <p class="gray-dark">已过期</p>
+                        <p class="gray mini">剩余 3 次</p>
+                    </div>
+                </div>
+                <!-- item over -->
+                <!-- step item start -->
+                <div class="step">
+                    <div class="column active">
+                        <div class="text">已支付</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column">
+                        <div class="text">待服务</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column">
+                        <div class="text">服务中</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column">
+                        <div class="text">已完成</div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <!-- step item over -->
+                <!-- step item start -->
+                <div class="step">
+                    <div class="column finish">
+                        <div class="text">已支付</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column active">
+                        <div class="text">待服务</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column">
+                        <div class="text">服务中</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column">
+                        <div class="text">已完成</div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <!-- step item over -->
+                <!-- step item start -->
+                <div class="step">
+                    <div class="column finish">
+                        <div class="text">已支付</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column finish">
+                        <div class="text">待服务</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column active">
+                        <div class="text">服务中</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column">
+                        <div class="text">已完成</div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <!-- step item over -->
+                <!-- step item start -->
+                <div class="step">
+                    <div class="column finish">
+                        <div class="text">已支付</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column finish">
+                        <div class="text">待服务</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column finish">
+                        <div class="text">服务中</div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="column active">
+                        <div class="text">待评价</div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <!-- step item over -->
+            </div>
+            <!-- step over -->
+            <!-- address start -->
+            <div class="title-box title-address">
+                <div class="icon"><img src="img/address@2x.png" alt=""></div>
+                <h5 class="medium gray flex-1">上海市虹口区乍浦路600号 虹口SOHO3Q</h5>
+            </div>
+            <!-- address over -->
+            <!-- goods start -->
+            <div class="info-group">
+                <div class="title-box">
+                    <h4 class="title">订单汇总</h4>
+                </div>
+                <div class="list">
+                    <!-- item start -->
+                    <div class="row">
+                        <div class="column">
+                            <div class="image image-small">
+                                <img src="http://img.la/40x40" alt="">
+                            </div>
+                            <p class="black">招牌全身经络<span class="gray margin-left">x1</span></p>
+                        </div>
+                        <div class="column">
+                            <p class="gray">¥289</p>
+                        </div>
+                    </div>
+                    <!-- item over -->
+                    <!-- item start -->
+                    <div class="row">
+                        <div class="column">
+                            <div class="image image-small">
+                                <img src="http://img.la/40x40" alt="">
+                            </div>
+                            <p class="black">其他项目<span class="gray margin-left">x1</span></p>
+                        </div>
+                        <div class="column">
+                            <p class="gray">¥0</p>
+                        </div>
+                    </div>
+                    <!-- item over -->
+                </div>
+                <div class="info">
+                    <div class="row">
+                        <p class="title">优惠券抵扣:</p>
+                        <p class="red">- ¥30</p>
+                    </div>
+                    <div class="row">
+                        <p class="title">颜值积分抵扣:</p>
+                        <p class="red">- ¥0</p>
+                    </div>
+                    <div class="row">
+                        <p class="title">钱包支付优惠:</p>
+                        <p class="red">- ¥25.9</p>
+                    </div>
+                    <div class="row special">
+                        <p class="title">订单金额:</p>
+                        <p class="big">¥233.1</p>
+                    </div>
+                </div>
+            </div>
+            <!-- goods over -->
+            <div class="spacing"></div>
+            <!-- info start -->
+            <div class="info-group">
+                <div class="title-box">
+                    <h4 class="title">订单信息</h4>
+                </div>
+                <div class="info">
+                    <div class="row">
+                        <p class="title">订单号:</p>
+                        <p>000000000000</p>
+                    </div>
+                    <div class="row">
+                        <p class="title">使用人:</p>
+                        <p>张三 女士 13888888888</p>
+                    </div>
+                    <div class="row">
+                        <p class="title">下单时间:</p>
+                        <p>2016-09-01 00:00</p>
+                    </div>
+                    <div class="row">
+                        <p class="title">有效期至:</p>
+                        <p>2016-09-01 09:30-11:00</p>
+                    </div>
+                    <div class="row">
+                        <p class="title">使用次数:</p>
+                        <p>10次</p>
+                    </div>
+                    <div class="row special">
+                        <p class="gray">支付方式:</p>
+                        <p class="black">微信支付</p>
+                    </div>
+                </div>
+            </div>
+            <!-- info over -->
+            <div class="spacing"></div>
+            <!-- technician start -->
+            <div class="list">
+                <div class="item">
+                    <div class="image image-small image-round">
+                        <img src="http://img.la/40x40" alt="">
+                    </div>
+                    <div class="row">
+                        <p class="title"><span class="color-1">安迪</span> 为您服务</p>
+                        <a href="tel:" class="color-1 medium-small">联系她</a>
+                    </div>
+                </div>
+            </div>
+            <!-- technician over -->
+            <div class="spacing"></div>
+            <!-- button start -->
+            <div class="button-box">
+                <butotn class="button button-clear button-full button-clear-black button-large">
+                    <span class="button-inner">一键延期</span>
+                </butotn>
+            </div>
+            <div class="button-box">
+                <butotn class="button button-clear button-full button-clear-black button-large" disabled>
+                    <span class="button-inner">一键延期</span>
+                </butotn>
+            </div>
+            <div class="button-box">
+                <butotn class="button button-clear button-full button-clear-black button-large" disabled>
+                    <span class="button-inner">已延期30天</span>
+                </butotn>
+            </div>
+            <div class="explain">
+                <p class="gray-dark">从购买日起至套餐到期后30天内, 您可执行 [一键延期] 操作, 可获得 1-3 个月延期</p>
+            </div>
+            <!-- button over -->
+            <!-- card start -->
+            <div class="info-group">
+                <div class="title-box">
+                    <h4 class="title">加单订单</h4>
+                </div>
+                <div class="list-card">
+                    <!-- item start -->
+                    <div class="item">
+                        <div class="cart-header">
+                            <div class="column">
+                                <p class="gray-dark">订单号: 000000</p>
+                            </div>
+                            <div class="column">
+                                <p class="orange">服务中</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <a href="3-order-content.html" class="card-content-link">
+                                <div class="column image">
+                                    <img src="http://img.la/60x60" alt="">
+                                </div>
+                                <div class="column flex-1">
+                                    <p class="title black">招牌全身经络</p>
+                                    <p>服务时间: 8月24日 9:00</p>
+                                </div>
+                                <span class="column align-right margin-left">
+                                    <p class="big">¥ 298</p>
+                                    <p class="gray">x1</p>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="cart-footer">
+                            <div class="inner">
+                                <p class="statistics align-right"><span class="gray">共1件 共计</span> ¥ 298</p>
+                                <div class="row">
+                                    <div class="column"></div>
+                                    <div class="column">
+                                        <p class="gray">本单为加单订单</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item over -->
+                </div>
+            </div>
+            <!-- card over -->
+        </main>
+        <!-- main over -->
+    </div>
+    <!-- container over -->
+
+    <!-- modal start -->
+    <div class="md-modal md-effect-1" id="modal-1">
+        <div class="md-content">
+            <div class="image">
+                <img src="http://img.la/red/320x250" alt="">
+                <div class="info">
+                    <h3 class="title">恭喜您获得10个红包可分享</h3>
+                    <p>分享红包给好友, 红包可用于享受折扣优惠哦~</p>
+                </div>
+            </div>
+            <div class="button-box">
+                <button class="button button-full button-clear button-clear-gray md-close">
+                    <span class="button-inner">朕乏了</span>
+                </button>
+                <button class="button button-full button-clear button-clear-red md-trigger md-close" data-modal="modal-2">
+                    <span class="button-inner">发红包</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="md-modal md-effect-20" id="modal-2">
+        <div class="md-content">
+            <div class="title-box">
+                <h4 class="title">分享红包至</h4>
+                <button class="button button-clear">
+                    <span class="button-inner">复制链接</span>
+                </button>
+            </div>
+            <div class="modal-share">
+                <a href="#">
+                    <img src="img/share-weixin@2x.png" alt="">
+                    <p>微信好友</p>
+                </a>
+                <a href="#">
+                    <img src="img/share-friend@2x.png" alt="">
+                    <p>朋友圈</p>
+                </a>
+                <a href="#">
+                    <img src="img/share-qq@2x.png" alt="">
+                    <p>QQ好友</p>
+                </a>
+                <a href="#">
+                    <img src="img/share-weibo@2x.png" alt="">
+                    <p>微博</p>
+                </a>
+                <a href="#">
+                    <img src="img/share-zone@2x.png" alt="">
+                    <p>空间</p>
+                </a>
+            </div>
+            <div class="spacing"></div>
+            <div class="button-box">
+                <button class="button button-full button-clear button-clear-black md-close demo-prompt">
+                    <span class="button-inner">取消</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="md-modal md-effect-20" id="modal-3">
+        <div class="md-content">
+            <div class="button-box display-block">
+                <a href="3-order-edit-time.html" class="button button-full button-clear button-clear-black">
+                    <span class="button-inner">修改时间</span>
+                </a>
+                <a class="button button-full button-clear button-clear-black">
+                    <span class="button-inner">更换技师</span>
+                </a>
+            </div>
+            <div class="spacing"></div>
+            <div class="button-box">
+                <button class="button button-full button-clear button-clear-gray md-close">
+                    <span class="button-inner">取消</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="md-overlay"></div>
+    <!-- modal over -->
+
+    <!-- red packet start -->
+    <a class="order-redpacket animated bounceIn md-trigger" data-modal="modal-1"><img src="img/order-red@2x.png" alt=""></a>
+    <!-- red packet start -->
+
+    <!-- JavaScript start -->
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/swiper/swiper.min.js"></script>
+    <script type="text/javascript" src="js/lazyload/jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="js/fly/jquery.fly.min.js"></script>
+    <!-- <script type="text/javascript" src="js/tooltip/jquery.darktooltip.js"></script> -->
+    <!-- <script type="text/javascript" src="js/fancyBox/jquery.fancybox.pack.js"></script> -->
+    <script type="text/javascript" src="js/iCheck/icheck.min.js"></script>
+    <script type="text/javascript" src="js/switchery/switchery.min.js"></script>
+    <script type="text/javascript" src="js/modalEffects/classie.js"></script>
+    <script type="text/javascript" src="js/modalEffects/modalEffects.js"></script>
+    <script type="text/javascript" src="js/raty/jquery.raty.js"></script>
+    <!-- <script type="text/javascript" src="js/mmenu/jquery.mmenu.all.min.js"></script> -->
+    <!-- <script type="text/javascript" src="js/accordion/jquery.accordion.js"></script> -->
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <!-- JavaScript over -->
+
+
+</body>
+
+</html>
