@@ -1913,6 +1913,23 @@ button.swiper-pagination-bullet {
   height: 40px;
 }
 
+.list .column .image.image-medium {
+  width: 50px;
+  height: 50px;
+}
+
+.list .column .image.margin-none {
+  margin: 0;
+}
+
+.list .column .image.image-round {
+  border-radius: 50%;
+}
+
+.list .column .image.image-round img {
+  border-radius: 50%;
+}
+
 .list .column .icon {
   width: 24px;
   height: 24px;
@@ -1996,6 +2013,11 @@ button.swiper-pagination-bullet {
 
 .list label.label.fixed-width {
   width: 76px;
+  margin-right: 0;
+}
+
+.list label.label.fixed-width-wide {
+  width: 90px;
   margin-right: 0;
 }
 
@@ -5793,7 +5815,7 @@ section.panel .info .number {
 }
 
 .explain {
-  padding: 6px 15px;
+  padding: 12px 15px;
   font-size: 13px;
   background-color: #f5f6f7;
 }
@@ -5988,6 +6010,23 @@ section.panel .info .number {
   text-align: center;
   font-size: 13px;
   color: #bfbfbf;
+}
+
+.login-out {
+  background-color: #ffffff;
+}
+
+.bind-explain {
+  padding: 15px 15px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.bind-phone {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background-color: #ffffff;
 }
 
 .raty-box {
