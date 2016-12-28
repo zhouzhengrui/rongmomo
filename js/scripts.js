@@ -67,6 +67,11 @@ var listSlide = new Swiper('.list-slide', {
     slidesOffsetAfter: 100
 });
 
+// address slide
+var addressSlide = new Swiper('.address-slide', {
+    slidesOffsetAfter: 150
+});
+
 // calendar
 var calendarSlide = new Swiper('#calendar-slide', {
     effect: 'coverflow',
