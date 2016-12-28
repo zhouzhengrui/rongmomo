@@ -2053,7 +2053,6 @@ button.swiper-pagination-bullet {
 .list input.input[type="date"] {
   position: absolute;
   right: 0;
-  padding-right: 20px;
   direction: rtl;
   text-align: right;
   z-index: 2;
@@ -2063,17 +2062,14 @@ button.swiper-pagination-bullet {
   position: absolute;
   min-height: 48px;
   right: 0;
-  padding-right: 36px;
   direction: rtl;
   text-align: right;
   z-index: 2;
 }
 
 .list select.select-left {
-  padding-right: 36px;
   direction: ltr;
   text-align: left;
-  padding-left: 76px;
 }
 
 .list .quantity {
@@ -5360,7 +5356,7 @@ section.panel .info .number {
   top: 3px;
   left: 10px;
   display: block;
-  width: 42px;
+  width: 38px;
   height: 16px;
   -webkit-transform: skew(-20deg);
   transform: skew(-20deg);
@@ -5370,7 +5366,7 @@ section.panel .info .number {
 .panel-wallet .avatar .rank p {
   position: absolute;
   left: 25px;
-  top: 3px;
+  top: 5px;
   font-size: 10px;
   color: #f4c001;
 }
@@ -5650,8 +5646,10 @@ section.panel .info .number {
 .user-card .icon-arrow-right:before {
   position: absolute;
   font-size: 14px;
+  top: 50%;
   right: 10px;
   color: #d7d7d7;
+  margin-top: -7px;
 }
 
 .user-card .card-content {

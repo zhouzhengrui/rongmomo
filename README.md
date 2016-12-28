@@ -87,7 +87,6 @@
 - 首页-我的技师-技师主页 `1-home-technician-content.html`
 - 首页-网络连接失败 `1-home-empty.html`
 - 首页-未登录 `1-home-empty-2.html`
----
 - 商品详情 `2-goods-content.html`
 - 商品详情-评论 `2-goods-comment.html`
 - 商品详情-确认商品信息 `2-goods-buy.html`
@@ -104,7 +103,6 @@
 - 购物车-确认商品信息 `2-cart-confirm.html`
 - 购物车-确认商品信息-提交订单 `2-cart-confirm-submit.html`
 - 购物车-确认商品信息-优惠券 `2-cart-coupon.html`
----
 - 订单-空 `3-order-empty.html`
 - 订单-全部商品 `3-order-all.html`
 - 订单-订单详情 [红包] `3-order-content.html`
@@ -114,7 +112,6 @@
 - 订单-评价 [打赏] `3-order-comment.html`
 - 订单-我的评价 `3-order-comment-content.html`
 - 订单-加单 `3-order-add.html`
----
 - 个人中心 `4-user.html`
 - 个人中心-未登录 `4-user-empty.html`
 - 个人中心-护理疗程 `4-user-course.html`
@@ -134,7 +131,6 @@
 - 个人中心-常用地址 `4-user-address.html`
 - 个人中心-常用地址-空 `4-user-address-empty.html`
 - 个人中心-常用地址-新增 `4-user-address-add.html`
----
 - 设置 `5-setting.html`
 - 设置-编辑资料 `5-setting-edit.html`
 - 设置-编辑资料-绑定账号 `5-setting-edit-bind.html`
@@ -144,7 +140,6 @@
 - 设置-编辑资料-密码设置 `5-setting-edit-password.html`
 - 设置-编辑资料-密码修改 `5-setting-edit-password-edit.html`
 - 设置-编辑资料-修改昵称 `5-setting-edit-name.html`
----
 - 预约-选择地址- `6-reserve-address.html`
 - 预约-选择技师 `6-reserve-technician.html`
 - 预约-选择服务 `6-reserve-goods.html`
