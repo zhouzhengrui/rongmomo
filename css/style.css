@@ -333,7 +333,12 @@ header.header .inner {
 }
 
 header.header .button {
-  height: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0 15px;
   z-index: 2;
 }
@@ -1171,6 +1176,7 @@ footer.login span.icon {
   min-width: 74px;
   height: 28px;
   padding: 0 8px;
+  font-size: 13px;
 }
 
 .button-wide {
@@ -1786,7 +1792,15 @@ button.swiper-pagination-bullet {
   height: 40px;
 }
 
-.list .item.disabled .checkbox {
+.list .item > .radio-checkbox {
+  margin-right: 15px;
+}
+
+.list .item.disabled .image {
+  opacity: .6;
+}
+
+.list .item.disabled .checkbox, .list .item.disabled .radio {
   background-color: #eeeeee;
 }
 
@@ -1839,7 +1853,7 @@ button.swiper-pagination-bullet {
   padding-right: 0;
 }
 
-.list .row:first-child .radio-checkbox .checkbox {
+.list .row:first-child .radio-checkbox .checkbox, .list .row:first-child .radio-checkbox .radio {
   margin-right: 15px;
 }
 
@@ -1996,6 +2010,8 @@ button.swiper-pagination-bullet {
   -ms-flex-align: center;
   align-items: center;
   padding: 0;
+  position: relative;
+  min-height: 48px;
 }
 
 .list label.label {
@@ -2037,7 +2053,7 @@ button.swiper-pagination-bullet {
 .list input.input[type="date"] {
   position: absolute;
   right: 0;
-  padding-right: 36px;
+  padding-right: 20px;
   direction: rtl;
   text-align: right;
   z-index: 2;
@@ -4179,6 +4195,11 @@ main.main > nav.tabbar.tabbar-border a {
   border-radius: 15px;
 }
 
+main.main > nav.tabbar .badge {
+  margin-left: 6px;
+  background-color: #53c7c6;
+}
+
 main.main > nav.tabbar ~ .empty-box {
   margin-top: 54px;
 }
@@ -4517,6 +4538,53 @@ section.goods-content .content p:last-child {
 
 .info-card p {
   font-size: 14px;
+}
+
+.info-card .info {
+  margin-top: 30px;
+  padding-top: 14px;
+  border-top: 1px solid #eeeeee;
+  font-size: 14px;
+}
+
+.info-card .info .row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  min-height: 19px;
+  margin-bottom: 4px;
+}
+
+.info-card .info .row:last-child {
+  margin-bottom: 0;
+}
+
+.info-card .info .label {
+  margin-right: 8px;
+  white-space: nowrap;
+  color: #9b9b9b;
+}
+
+.info-card .info .big {
+  font-size: 18px;
+}
+
+.info-card .color-1 {
+  color: #53c7c6;
+}
+
+.info-card .gray {
+  color: #bfbfbf;
+}
+
+.info-card .red {
+  color: #f95b45;
 }
 
 .step {
@@ -5105,6 +5173,52 @@ section.calendar-switch.shadow {
 .modal-payment p {
   color: #9b9b9b;
   font-size: 13px;
+}
+
+.modal-reserve {
+  padding: 0 15px 15px;
+}
+
+.modal-reserve .title {
+  padding: 12px 0;
+}
+
+.modal-reserve div.input {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.modal-reserve label.label {
+  margin-right: 15px;
+  font-size: 13px;
+}
+
+.modal-reserve input.input {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 40px;
+  padding: 0 12px;
+  font-size: 14px;
+  border: 1px solid #eeeeee;
+  background-color: #f5f6f7;
+}
+
+.modal-reserve input.input:focus {
+  background-color: #ffffff;
+}
+
+.modal-reserve p {
+  font-size: 13px;
+}
+
+.modal-reserve .gray {
+  color: #bfbfbf;
 }
 
 section.panel {
@@ -5774,6 +5888,10 @@ section.panel .info .number {
   color: #bfbfbf;
   margin-bottom: 9px;
   font-size: 13px;
+}
+
+.empty-box .info a {
+  color: #53c7c6;
 }
 
 .prompt {

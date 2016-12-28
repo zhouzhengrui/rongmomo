@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-    <title>个人中心-护理疗程</title>
+    <title>预约-选择服务-套餐</title>
     <!-- CSS start -->
     <link rel="stylesheet" href="icofont/style.css">
     <link rel="stylesheet" href="css/style.min.css">
@@ -21,11 +21,11 @@
         <!-- header start -->
         <header class="header">
             <div class="inner">
-                <a href="4-user.html" class="button button-clear button-clear-black">
+                <a href="6-reserve-technician.html" class="button button-clear button-clear-black">
                     <span class="button-inner"><i class="icon-arrow-left"></i></span>
                 </a>
                 <div class="header-title">
-                    <h3 class="title">我的护理疗程</h3>
+                    <h3 class="title">选择服务项目</h3>
                 </div>
             </div>
         </header>
@@ -33,10 +33,18 @@
         <!-- footer start -->
         <footer class="footer">
             <img class="shadow" src="img/shadow@2x.png" alt="">
-            <div class="inner justify-content-center">
-                <button onclick="location.href='#'" class="button button-round button-small button-wide">
-                    <span class="button-inner">预约服务</span>
-                </button>
+            <div class="inner">
+                <div class="column">
+                    <div>
+                        <p class="small">总计：¥ 894</p>
+                        <p class="gray mini">已优惠: ¥0.00</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <button onclick="location.href='#'" class="button button-round button-small button-wide">
+                        <span class="button-inner">选好了</span>
+                    </button>
+                </div>
             </div>
         </footer>
         <!-- footer over -->
@@ -45,8 +53,9 @@
             <!-- tab start -->
             <nav class="tabbar tabbar-border">
                 <div class="inner">
-                    <a href="3-order-all.html" class="active">上门服务套餐</a>
-                    <a href="#">到店服务套餐</a>
+                    <a href="6-reserve-goods.html">面部<span class="badge">2</span></a>
+                    <a href="#">身体</a>
+                    <a href="6-reserve-package.html" class="active">套餐</a>
                 </div>
             </nav>
             <!-- tab over -->
@@ -69,48 +78,13 @@
                                     <div class="inner justify-content-between">
                                         <p class="title">套餐一</p>
                                         <div>
-                                            <p class="small">有效期至: 2016-10-1</p>
-                                            <p class="gray small">限<span class="color-1">上海地区</span>使用</p>
+                                            <p class="gray small">限上海地区使用</p>
+                                            <p class="gray small">有效期至: 2016-10-1</p>
                                         </div>
                                     </div>
                                 </div>
                             </a>
                             <p class="state">即将到期</p>
-                            <div class="row border-top">
-                                <p class="color-1 medium-small">剩余7次</p>
-                                <div class="quantity">
-                                    <button disabled><i class="icon-minus"></i></button>
-                                    <input type="number" value="1">
-                                    <button><i class="icon-plus"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- item over -->
-                <!-- item start -->
-                <div class="item">
-                    <div class="row row-border">
-                        <div class="column radio-checkbox">
-                            <input type="checkbox" name="radio-1">
-                        </div>
-                        <div class="column column-border flex-direction-column flex-1">
-                            <a href="4-user-course-content.html" class="row align-items-stretch">
-                                <div class="column">
-                                    <div class="image">
-                                        <img src="http://img.la/75x75" alt="">
-                                    </div>
-                                </div>
-                                <div class="column align-items-stretch flex-1" style="margin-right: 60px;">
-                                    <div class="inner justify-content-between">
-                                        <p class="title">套餐一</p>
-                                        <div>
-                                            <p class="small">有效期至: 2016-10-1</p>
-                                            <p class="gray small">限<span class="color-1">上海地区</span>使用</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
                             <div class="row border-top">
                                 <p class="color-1 medium-small">剩余7次</p>
                                 <div class="quantity">
@@ -147,7 +121,7 @@
                                 </div>
                             </div>
                             <div class="row border-top">
-                                <p class="gray medium-small">已过期</p>
+                                <p class="gray medium-small">剩余7次</p>
                             </div>
                         </div>
                     </div>

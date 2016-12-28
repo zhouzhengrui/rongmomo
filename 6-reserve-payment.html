@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-    <title>商品详情-确认商品信息-确认订单</title>
+    <title>预约-支付</title>
     <!-- CSS start -->
     <link rel="stylesheet" href="icofont/style.css">
     <link rel="stylesheet" href="css/style.min.css">
@@ -21,11 +21,11 @@
         <!-- header start -->
         <header class="header">
             <div class="inner">
-                <a href="2-goods-buy.html" class="button button-clear button-clear-black">
-                    <span class="button-inner"><i class="icon-arrow-left"></i></span>
+                <a href="6-reserve-time.html" class="button button-clear button-clear-gray">
+                    <span class="button-inner">取消</span>
                 </a>
                 <div class="header-title">
-                    <h3 class="title">确认订单</h3>
+                    <h3 class="title">支付订单</h3>
                 </div>
             </div>
         </header>
@@ -33,16 +33,10 @@
         <!-- footer start -->
         <footer class="footer">
             <img class="shadow" src="img/shadow@2x.png" alt="">
-            <div class="inner">
-                <div class="column">
-                    <p class="small">总计：</p>
-                    <p class="color-1"><b>¥ 308.8</b></p>
-                </div>
-                <div class="column">
-                    <a href="2-goods-payment.html" class="button button-round button-wide button-small">
-                        <span class="button-inner">确定支付</span>
-                    </a>
-                </div>
+            <div class="inner justify-content-center">
+                <button onclick="location.href='6-reserve-finish.html'" class="button button-round button-small button-wide md-trigger" data-modal="modal-1">
+                    <span class="button-inner">确认支付</span>
+                </button>
             </div>
         </footer>
         <!-- footer over -->
@@ -82,7 +76,7 @@
                 </div>
             </div>
             <div class="recharge">
-                <a href="#" class="button button-round button-outline button-mini">
+                <a href="#" class="button button-round button-mini">
                     <span class="button-inner">充值</span>
                 </a>
             </div>
