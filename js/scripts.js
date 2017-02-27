@@ -62,6 +62,20 @@ var goodsSlide = new Swiper('#goods-slide', {
     }
 });
 
+// goods slide
+var userCardImageListSlide = new Swiper('#user-card-image-list-slide', {
+    effect: 'coverflow',
+    slidesPerView: 3,
+    spaceBetween: 12,
+    lazyLoading: true,
+    coverflow: {
+        rotate: 0,
+        depth: 0,
+        modifier: 1,
+        slideShadows: false
+    }
+});
+
 // list slide
 var listSlide = new Swiper('.list-slide', {
     slidesOffsetAfter: 100
