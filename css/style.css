@@ -1142,6 +1142,16 @@ footer.login span.icon {
   background-color: #ffffff;
 }
 
+.button-black {
+  color: #ffffff;
+  background-color: #2c2c2c;
+}
+
+.button-black:active {
+  opacity: .75;
+  background-color: #2c2c2c;
+}
+
 .button-inner {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3945,6 +3955,100 @@ button.swiper-pagination-bullet {
   border-bottom-right-radius: 0;
 }
 
+section.content {
+  padding: 0 15px;
+}
+
+section.content h1,
+section.content h2 {
+  padding: 15px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+section.content h1,
+section.content h2,
+section.content h3,
+section.content h4,
+section.content h5,
+section.content h6 {
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+section.content h1 {
+  font-size: 20px;
+}
+
+section.content h2 {
+  font-size: 18px;
+}
+
+section.content h3 {
+  font-size: 16px;
+}
+
+section.content h4 {
+  font-size: 14px;
+}
+
+section.content p {
+  margin: 15px 0;
+  line-height: 1.8;
+}
+
+section.content img {
+  display: block;
+  margin: 0 auto;
+}
+
+section.content ul {
+  margin: 15px 0;
+}
+
+section.content ul li {
+  position: relative;
+  margin: 15px 0;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+section.content ul li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #53c7c6;
+}
+
+section.content ol {
+  margin: 15px 0 15px 17px;
+  padding-left: 20px;
+}
+
+section.content ol li {
+  margin: 15px 0;
+  line-height: 1.8;
+}
+
+section.content a {
+  color: #53c7c6;
+  font-weight: bold;
+}
+
+section.content a:active {
+  color: #39aead;
+}
+
+section.content blockquote {
+  padding: 0 15px;
+  border: 1px solid #eeeeee;
+  background-color: #f5f6f7;
+}
+
 .title-box {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6326,6 +6430,168 @@ section.panel .info .number {
   line-height: 80px;
   text-align: center;
   background-color: #ffffff;
+}
+
+.transmit .header-image {
+  display: block;
+}
+
+.transmit .main {
+  position: relative;
+  z-index: 2;
+  margin: -25px 15px 15px;
+  padding: 22px 0;
+  color: #4a4a4a;
+  background-color: #eef4f4;
+}
+
+.transmit .function {
+  width: 280px;
+  margin: 0 auto 36px;
+  text-align: center;
+}
+
+.transmit .function .info {
+  margin-bottom: 22px;
+}
+
+.transmit .function .info p {
+  margin: 5px 0;
+}
+
+.transmit .function .info .small {
+  font-size: 14px;
+}
+
+.transmit .function .info b {
+  color: #53c7c6;
+}
+
+.transmit .function .info a {
+  color: #53c7c6;
+  text-decoration: underline;
+}
+
+.transmit .function .input {
+  margin-bottom: 12px;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+}
+
+.transmit .function .input:focus {
+  border-color: #53c7c6;
+}
+
+.transmit .text {
+  margin-bottom: 15px;
+  padding: 0 15px;
+  color: #4a4a4a;
+}
+
+.transmit .text .title {
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.transmit .text .title:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  top: 9px;
+  background-color: #d7d7d7;
+}
+
+.transmit .text .title span {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 0 10px;
+  background-color: #eef4f4;
+}
+
+.transmit .text ol {
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.transmit .coupon {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 280px;
+  height: 100px;
+  margin-bottom: 15px;
+  background-image: url("../img/transmit-coupon.png");
+  background-size: 100%;
+}
+
+.transmit .coupon .left {
+  width: 120px;
+  text-align: center;
+  color: #2c2c2c;
+}
+
+.transmit .coupon .left h3 {
+  font-weight: bold;
+}
+
+.transmit .coupon .left p {
+  font-size: 10px;
+}
+
+.transmit .coupon .right {
+  width: 160px;
+}
+
+.transmit .coupon .right h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #53c7c6;
+}
+
+.transmit .coupon .right small {
+  margin-left: -10px;
+}
+
+.transmit .list .image img {
+  border-radius: 4px;
+}
+
+.transmit .list .item {
+  padding-left: 0;
+  background-color: transparent;
+}
+
+.transmit .list .row {
+  padding-right: 0;
+  border-bottom: none;
+}
+
+.transmit .list .row p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.transmit .list .inner {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
 }
 
 .raty-box {

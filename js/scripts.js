@@ -130,7 +130,7 @@ jQuery(document).ready(function($) {
     // raty
     $('.raty-1').raty({
         starType: 'img',
-        path: '../img',
+        path: 'img',
         starHalf: 'star-half@2x.png',
         starOff: 'star-empty@2x.png',
         starOn: 'star@2x.png',

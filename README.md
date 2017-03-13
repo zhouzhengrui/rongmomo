@@ -5,12 +5,16 @@
 ## GitHub Pages
 
 <https://zhouzhengrui.github.io/rongmomo/>
+<https://zhouzhengrui.github.io/rongmomo/7-new.html> 新增页面预览
 
 ## Update
 
 ### 2017-3-13
 
-- 新增 `7-modals.html` 弹出框页面, 替换css
+- 新增弹出框页面, 4个文本页, 3个转发红包页
+- 替换css
+- 发现一个星级评分的图片显示问题, 已修改, 需替换script.js
+- img文件夹增加两张图片
 
 ### 2017-2-27
 
@@ -158,6 +162,14 @@
 - 预约-地址 `6-reserve-select-address.html`
 - 预约-技师 `6-reserve-select-technician.html`
 - 预约-地址-空 `6-reserve-address-empty.html`
-- 弹出框样式 `7-modals.html`
+- 新增 `7-new.html`
+- 新增-弹出框样式 `7-modals.html`
+- 新增-文本页-订单退改规则 `7-text-1.html`
+- 新增-文本页-会员卡文案 `7-text-2.html`
+- 新增-文本页-颜值积分 `7-text-3.html`
+- 新增-文本页-购买须知 `7-text-4.html`
+- 新增-转发红包-1 `7-transmit-1.html`
+- 新增-转发红包-2 `7-transmit-2.html`
+- 新增-转发红包-3 `7-transmit-3.html`
 
 [⬆ back to top](#readme)
