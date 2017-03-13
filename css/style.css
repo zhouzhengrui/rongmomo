@@ -3233,6 +3233,11 @@ button.swiper-pagination-bullet {
   background-color: #ffffff;
 }
 
+.md-content .modal-content {
+  padding: 15px;
+  background-color: #ffffff;
+}
+
 .md-content .image {
   position: relative;
 }
@@ -3279,6 +3284,18 @@ button.swiper-pagination-bullet {
 
 .md-content .button-box .big {
   font-size: 17px;
+}
+
+.md-content .button-line {
+  border-top: 1px solid #eeeeee;
+}
+
+.md-content .button-line .button {
+  border-right: 1px solid #eeeeee;
+}
+
+.md-content .button-line .button:last-child {
+  border-right: 0;
 }
 
 .md-content .spacing {
