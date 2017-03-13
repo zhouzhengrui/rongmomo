@@ -8,6 +8,10 @@
 
 ## Update
 
+### 2017-3-13
+
+- 新增 `7-modals.html` 弹出框页面, 替换css
+
 ### 2017-2-27
 
 - `4-user.html`图片列表添加滑动功能, html有少量修改, 替换css, 替换scripts.js
@@ -154,5 +158,6 @@
 - 预约-地址 `6-reserve-select-address.html`
 - 预约-技师 `6-reserve-select-technician.html`
 - 预约-地址-空 `6-reserve-address-empty.html`
+- 弹出框样式 `7-modals.html`
 
 [⬆ back to top](#readme)
