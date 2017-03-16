@@ -6,9 +6,14 @@
 
 <https://zhouzhengrui.github.io/rongmomo/>
 
-<https://zhouzhengrui.github.io/rongmomo/7-new.html> 新增页面预览
+<https://zhouzhengrui.github.io/rongmomo/7-new.html> 新增内容预览
 
 ## Update
+
+### 2017-3-16
+
+- `3-order-all.html` 取消订单按钮添加下拉选择功能
+- `5-setting-edit.html` 所在城市按钮添加地区选择功能, 需引入js/jquery.area.js, 替换css
 
 ### 2017-3-13
 
