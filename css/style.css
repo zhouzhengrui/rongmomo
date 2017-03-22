@@ -6654,6 +6654,19 @@ section.panel .info .number {
   border-bottom: 1px solid #eeeeee;
 }
 
+.address-input {
+  padding: 10px 30px;
+  background-color: #f2f4f5;
+}
+
+.address-input input {
+  padding: 5px;
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
 .raty-box {
   padding: 0 15px;
   margin-bottom: 18px;
