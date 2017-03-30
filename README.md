@@ -10,6 +10,11 @@
 
 ## Update
 
+### 2017-3-30
+
+- `2-package-payment-finish.html` 增加红包弹窗, js/modalEffects/modalEffects.js 有修改需替换
+- js/jquery.area.js 原为全局引用, 现在改为需要地区选择的页面引用, 否则会报错
+
 ### 2017-3-22
 
 - 添加 `7-address.html`
