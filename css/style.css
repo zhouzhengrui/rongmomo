@@ -532,6 +532,14 @@ header.header.background-color-1 {
   background-color: #53c7c6;
 }
 
+header.header.background-color-1 .title-select select {
+  color: #ffffff;
+}
+
+header.header.background-color-1 .title-select i {
+  color: #ffffff;
+}
+
 header.header.border-bottom .inner {
   border-bottom: 1px solid #eeeeee;
 }
@@ -4328,6 +4336,17 @@ footer.footer-cart ~ main.main {
 
 .tabbar-slide .swiper-slide a {
   padding: 0 17px;
+}
+
+.tabbar-slide-fixed {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+}
+
+.list-goods-fix {
+  margin-top: 70px;
 }
 
 main.main > nav.tabbar {
